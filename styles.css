@@ -1,0 +1,286 @@
+
+
+            /* universal & root styles */
+
+            * {
+                box-sizing: border-box;
+                scroll-behavior: smooth;
+                font-size: 18px;
+                text-align: center;
+            }   
+
+            :root {
+                --main-bg-color: ;
+                --main-text-color: ;
+
+                --main-link-default-color: ;
+                --main-link-hover-color: ;
+                --main-link-active-color: ;
+                --main-link-visited-color: ;
+
+                --site-nav-bg-color: ;
+                --site-nav-text-color: ;
+
+                --site-nav-link-default-color: ;
+                --site-nav-link-hover-color: ;
+                --site-nav-link-active-color: ;
+                --site-nav-link-visited-color: ;
+
+                --footer-bg-color: ;
+                --footer-text-color: ;
+
+                --table-header-bg-color: ;
+            }  
+            
+            
+            /* structural/main styles */
+ 
+            html {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: auto;
+            }  
+            
+            body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: auto;
+            }  
+
+            header {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: auto;
+            }  
+
+            main {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: auto;
+            }
+
+            footer {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: auto;
+
+                border-top: 1px solid white;
+                background-color: black;
+                color: white;
+            }
+
+            nav {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: auto;
+
+                background-color: black;
+                color: white;
+            }
+
+            section {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: auto;
+            }
+
+
+           /* main/site nav bar */ 
+
+           nav #main-list {
+            margin: 0;
+            padding: 0.2rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-items: center;
+            overflow: hidden;
+           }
+
+           #main-list li {
+            list-style-type: none;
+            justify-content: flex-end;
+            align-items: center;
+            text-align: left;
+            font-size: 1.2rem;
+           }
+
+            #series-list {
+            margin: 0 0 0 0.5rem;
+            padding: 0 0.2rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-items: center;
+            overflow: hidden;
+           }
+
+           #series-list li {
+            margin: 0.2rem 0 0 0.5rem;
+            padding: 0.2rem;
+           }
+
+            #list-details {
+            margin: 0 0 0 0.5rem;
+            padding: 0 0.2rem;
+           }
+
+           #list-details li {
+            margin: 0.1rem;
+            padding: 0.2rem;
+            font-size: 1.1rem;
+            width: 100%;
+            list-style-position: outside;
+            text-align: left;
+           }
+
+           #list-details a {
+            line-height: 1.2rem;
+            color: aqua;
+            margin: 0 auto;
+            padding: 0 0.2rem;
+           }
+
+           #list-details a:hover {
+            background-color: aqua;
+            color: black;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            cursor: pointer;
+           }
+
+           /* Collections section */
+
+           h2 {
+            font-size: 1.6rem;
+            margin: 1.2rem auto 0.2rem auto;
+            padding: 0;
+           }
+
+           #collections-list p {
+            margin: 0 auto 2rem auto;
+            padding: 0.2rem;
+           }
+
+           .card {
+            margin: 0.8rem auto 2rem auto;
+            padding: 0;
+            width: 90%;
+            height: auto;
+
+            border: 2px solid black;
+            border-radius: 0.4rem;
+           }
+
+           .card h3 {
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+            background-color: navy;
+            color: navajowhite;
+            line-height: 1.6rem;
+            font-size: 1.2rem;
+            letter-spacing: 0.1rem;
+            
+            border-bottom: 1px solid black;
+           }
+
+           .card h3 span {
+            font-style: italic;
+            font-size: 1.1rem;
+           }
+
+           .card p {
+            margin: 0 auto 2rem auto;
+            padding: 0.2rem;
+            width: 90%;
+            border: 2px solid green;
+
+            line-height: 1.2rem;
+            font-size: 1rem;
+           }
+
+
+           /* .card table */
+
+           .card table {
+            margin: 0.6rem auto;
+            padding: 0;
+            width: 90%;
+            border-collapse: collapse;
+            border: 0;
+            border-radius: 0.4rem;
+            overflow: hidden;
+           }
+
+           .card caption {
+            font-size: 0.9rem;
+            font-style: italic;
+           }
+
+           .card thead {
+            margin: 0 auto;
+            padding: 0;
+            background-color: navy;
+            color: navajowhite;
+           }
+
+           .card thead th {
+            margin: 0.2rem auto;
+            padding: 0.2rem;
+            font-size: 1.1rem;
+            font-weight: 500;
+            line-height: 1.2rem;
+           }
+
+           .card tbody td {
+            border: 1px solid black;
+            margin: 0.2rem auto;
+            padding: 0.2rem 0.4rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.1rem;
+           }
+
+
+           /* series/collection nav bar */
+
+           nav p {
+            margin: 0 auto;
+            padding: 0.2rem;
+            line-height: 1.2rem;
+            font-weight: 500;
+           }
+
+           nav a {
+            text-decoration: none;
+            color: aqua;
+           }
+
+           nav a:hover {
+            background-color: aqua;
+            color: black;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            cursor: pointer;
+           }
+
+
+           /* other H1-6, Ps, related styles/classes */
+
+
+           footer p {
+            margin: 0 auto;
+            padding: 0.2rem;
+            font-size: 0.8rem;
+            font-style: italic;
+           }
